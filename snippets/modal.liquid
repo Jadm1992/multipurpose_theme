@@ -167,15 +167,15 @@
 // JavaScript to control the modal
 var modal = document.getElementById("popup1");
 var closeBtn = document.querySelector("#popup1 .close");
-var openBtn = document.querySelector(".skip");
 
 closeBtn.onclick = function() {
   modal.style.display = "none";
 }
 
-openBtn.onclick = function() {
+// Show the modal on page load
+window.addEventListener("load", function() {
   modal.style.display = "block";
-}
+});
 
 // Hide the modal when clicking outside of it
 window.onclick = function(event) {
