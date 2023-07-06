@@ -1,7 +1,7 @@
 <div id="popup1" class="overlay">
-  <div class="popup"> <a class="close" href="#">&times;</a>
+  <div class="popup">
+    <a class="close" href="#">&times;</a>
     <div id="dialog" class="window">
-      
       <div class="box">
         <div class="newletter-title">
           <h2>Sign up &amp; get 10% off</h2>
@@ -15,7 +15,8 @@
                 <input type="text" value="" name="subscribe_pemail" id="subscribe_pemail">
                 <input type="hidden" value="" name="subscribe_pname" id="subscribe_pname">
                 <div id="notification"></div>
-                <a class="button" onclick="email_subscribepopup()"><span>Submit</span></a> </div>
+                <a class="button" onclick="email_subscribepopup()"><span>Submit</span></a>
+              </div>
             </form>
             <div class="subscribe-bottom">
               <input type="checkbox" id="newsletter_popup_dont_show_again">
@@ -29,11 +30,10 @@
     </div>
   </div>
 </div>
+
 <a class="btn btn-primary skip" href="#popup1" style="padding:6px 15px; background:#333; color:#fff; text-decoration:none; font-family:poppins; border-radius:3px; margin:25% 40%; display:inline-block;">OPEN POPUP</a>
-</body>
 
 <style>
-
 .overlay {
   position: fixed;
   top: 0;
@@ -53,7 +53,7 @@
 }
 
 #popup1 {
-  font-family: poppins;
+  font-family: Poppins;
 }
 
 #popup1 .popup {
@@ -158,33 +158,40 @@
   background: #333;
   padding: 3px 25px;
   text-transform: uppercase;
-  font-size: 14px
-
+  font-size: 14px;
+}
 </style>
 
 <script>
 // JavaScript to control the modal
-var modal = document.getElementById("myModal");
-var closeBtn = document.getElementsByClassName("close")[0];
+var modal = document.getElementById("popup1");
+var closeBtn = document.querySelector("#popup1 .close");
+var openBtn = document.querySelector(".skip");
 
 closeBtn.onclick = function() {
   modal.style.display = "none";
 }
 
-// Show the modal on page load
-window.addEventListener("load", function() {
+openBtn.onclick = function() {
   modal.style.display = "block";
-});
+}
+
+// Hide the modal when clicking outside of it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
 
 // Handle form submission
-var form = document.querySelector("form");
+var form = document.getElementById("subscribe_popup");
 form.addEventListener("submit", function(event) {
   event.preventDefault();
-  var emailInput = document.querySelector("input[name='email']");
+  var emailInput = document.getElementById("subscribe_pemail");
   var email = emailInput.value;
   
   // Display thank you message
-  var modalContent = document.querySelector(".modal-content");
+  var modalContent = document.querySelector("#popup1 .box-content");
   modalContent.innerHTML = "<h2>Thank you for subscribing!</h2><p>We appreciate your support.</p>";
   
   // Perform further validation or submit the email using an AJAX request
