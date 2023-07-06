@@ -1,1 +1,235 @@
-{"sections":{"carousel":{"type":"carousel","blocks":{"7c7200c0-9e25-4d6f-8e80-68098f92561e":{"type":"slide","settings":{"img_mobile":"shopify:\/\/shop_images\/canvas123.webp","img_mobile_height":300,"img_mobile_opacity":0.6,"img_mobile_blur":0,"caption_position_mobile":"carousel-caption-mobile-center","img_desktop":"shopify:\/\/shop_images\/canvas123.webp","img_desktop_height":680,"img_desktop_opacity":0.4,"img_desktop_blur":0,"caption_position_desktop":"carousel-caption-desktop-center","caption_color":"rgba(0,0,0,0)","caption_animation":"animate__fadeInUp","caption_animation_speed":"animate__fast","subtitle":"","subtitle_size":"fs-5","title":"Relax With Plushie Kawaii ™","title_size":"h1","description":"","description_size":"fs-5","btn_text":"Discover Plushie Kawaii","btn_url":"https:\/\/ecomgraduates.com\/products\/ecomifylite-premium-shopify-theme","btn_color":"btn-secondary","btn_size":"btn-md","btn_secondary_text":"","btn_secondary_url":"https:\/\/ecomgraduates.com\/products\/ecomifylite-premium-shopify-theme","btn_secondary_color":"btn-secondary","btn_secondary_size":"","slide_link":""}}},"block_order":["7c7200c0-9e25-4d6f-8e80-68098f92561e"],"settings":{"bg_color":"bg-dark","container":"","controls":true,"controls_style":"carousel-controls-arrows","indicators":true,"indicators_style":"carousel-indicators-circles","autoplay":true,"animation":"slide","ken_burns":false,"lazyload":false,"mt":0,"mb":0}},"89e25ca3-54f5-455a-a388-e1619b6ae4d9":{"type":"image-with-text","settings":{"bg_color":"bg-white text-body","bg_gradient":false,"container":"container-fluid","max_width":"","text_align":"text-start","animation":"animate__fadeInUp","animation_speed":"animate__fast","image":"shopify:\/\/shop_images\/description-image-16.jpg","img_orientation":"square","img_crop":"center","img_thumbnail":"","img_align_desktop":"flex-lg-row","img_size_desktop":"1\/3","title":"BUBBLE TEA HUGGING PILLOW","title_size":"h2","subtitle":"","subtitle_size":"fs-6","description":"<p>You could hug it when sleeping, watching TV, Reading books, Also it can be used in different occasions such as bedroom, living room, bedroom, office, car, etc.<\/p>","description_size":"fs-6","btn_text":"Shop Now","btn_url":"","btn_color":"btn-secondary","btn_size":"btn-md","pt":12,"pb":12,"mt":0,"mb":0}},"ea15ac55-2f6c-4807-a5f6-7db273cec6d9":{"type":"image-with-text","settings":{"bg_color":"bg-white text-body","bg_gradient":false,"container":"container-fluid","max_width":"","text_align":"text-start","animation":"animate__fadeInUp","animation_speed":"animate__fast","image":"shopify:\/\/shop_images\/Boba-Plushies-Bubble-Tea-Plush-Toys-Kawaii-Plush-Cup-Shaped-Pillow-Real-Life-Food-Stuffed-Soft.jpg_640x640_10d1ca69-62b0-459a-aeae-d70909629d74.jpg","img_orientation":"landscape","img_crop":"center","img_thumbnail":"","img_align_desktop":"flex-lg-row-reverse","img_size_desktop":"1\/3","title":"REALISTIC CARTOON PLUSH","title_size":"h2","subtitle":"","subtitle_size":"fs-6","description":"<p>Different colours, different expressions, crying expressions, smiling expressions, you can choose different plushies to express your different moods<\/p>","description_size":"fs-6","btn_text":"Discover Plushie Kawaii","btn_url":"","btn_color":"btn-secondary","btn_size":"btn-md","pt":5,"pb":10,"mt":0,"mb":0}},"10ecdc8c-6d82-4dfa-a6ae-525033bb5550":{"type":"single-product","settings":{"bg_color":"bg-white text-body","container":"container","max_width":"","text_align":"text-start","product":"boba-plushies-bubble-tea-plush-toys-kawaii-plush-cup-shaped-pillow-real-life-food-stuffed-soft-back-cushion-kid-birthday-gift","show_vendor":false,"title_size":"h2","description":"<p>Introducing the Ecomify Dog Mat - the perfect way to keep your furry friend cozy and comfortable. Our dog mat is made with high-quality, durable materials that can withstand even the most active dogs. With a soft, plush surface, your dog will love snuggling up on this mat for a nap or to relax after a long day of play... <\/p>","description_size":"fs-6","gallery_img_orientation":"landscape","gallery_img_thumbnail":"","gallery_show_thumbnails_mobile":true,"form_light_bg":false,"form_show_qty_field":true,"form_show_buy_btn":true,"btn_text":"Learn more","btn_color":"btn-secondary","btn_size":"btn-lg","pt":10,"pb":11,"mt":0,"mb":0}},"5cec5f55-2d4a-4dae-a903-e18f9fd86754":{"type":"separator","settings":{"full_width":false,"opacity":0.1,"mt":0,"mb":0}},"733b8c89-955b-4eca-a757-653dff2b22ba":{"type":"icon-blocks","blocks":{"84bc443c-346e-494c-a531-8cd8bebc8850":{"type":"item","settings":{"bg_color":"bg-white text-body","shadow":"shadow-none","border_color":"","border_width":0,"text_align":"text-start","icon":"<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" enable-background=\"new 0 0 32 32\" width=\"125px\" id=\"Layer_1\" version=\"1.1\" viewbox=\"0 0 32 32\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" xml:space=\"preserve\"><g id=\"truck_1_\"><path d=\"M24.832,11.445C24.646,11.167,24.334,11,24,11h-1c-0.553,0-1,0.447-1,1v6c0,0.553,0.447,1,1,1h4   c0.553,0,1-0.447,1-1v-1.5c0-0.197-0.059-0.391-0.168-0.555L24.832,11.445z M27,18h-4v-6h1l3,4.5V18z\" fill=\"#000000\"><\/path><path d=\"M31.496,15.336l-4-6C26.938,8.499,26.004,8,25,8h-4V6c0-1.654-1.346-3-3-3H3C1.346,3,0,4.346,0,6v11   c0,1.654,1.346,3,3,3h0v3c0,1.654,1.346,3,3,3h1.142c0.447,1.721,2,3,3.859,3c1.857,0,3.41-1.279,3.857-3h5.282   c0.447,1.721,2,3,3.859,3c1.857,0,3.41-1.279,3.857-3H29c1.654,0,3-1.346,3-3v-6C32,16.406,31.826,15.83,31.496,15.336z M3,18   c-0.552,0-1-0.447-1-1V6c0-0.553,0.448-1,1-1h15c0.553,0,1,0.447,1,1v2v2v7c0,0.553-0.447,1-1,1H3z M11.001,27   c-1.105,0-2-0.896-2-2s0.895-2,2-2c1.104,0,2,0.896,2,2S12.104,27,11.001,27z M24,27c-1.105,0-2-0.896-2-2s0.895-2,2-2   c1.104,0,2,0.896,2,2S25.104,27,24,27z M30,23c0,0.553-0.447,1-1,1h-1.143c-0.447-1.721-2-3-3.857-3c-1.859,0-3.412,1.279-3.859,3   h-5.282c-0.447-1.721-2-3-3.857-3c-1.859,0-3.412,1.279-3.859,3H6c-0.552,0-1-0.447-1-1v-3h13c1.654,0,3-1.346,3-3v-7h4   c0.334,0,0.646,0.167,0.832,0.445l4,6C29.941,16.609,30,16.803,30,17V23z\" fill=\"#000000\"><\/path><\/g><\/svg>","icon_position":"left","title":"FREE SHIPPING","title_size":"h4","description":"","description_size":"fs-6","btn_text":"","btn_url":"","btn_color":"btn-primary","btn_size":"btn-md"}},"72e56300-e237-4fcb-8c4b-27b871172bcf":{"type":"item","settings":{"bg_color":"bg-white text-body","shadow":"shadow-none","border_color":"","border_width":0,"text_align":"text-start","icon":"<svg width=\"125px\" viewbox=\"0 0 512 512\" version=\"1.1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<g id=\"#000000ff\">\n<path fill=\"#000000\" opacity=\"1.00\" d=\" M 253.29 16.24 C 311.14 14.91 368.91 36.59 412.53 74.47 C 453.69 109.87 482.45 159.52 492.05 213.01 C 500.73 260.04 494.83 309.67 475.20 353.30 C 459.20 389.22 434.17 421.05 403.15 445.22 C 361.29 478.09 308.20 496.40 254.95 495.92 C 247.55 495.64 241.00 489.45 240.16 482.12 C 239.12 475.32 243.10 468.20 249.39 465.45 C 252.69 463.84 256.45 463.98 260.03 463.88 C 298.15 463.31 335.97 451.68 367.98 431.00 C 399.10 410.99 424.79 382.62 441.53 349.61 C 461.64 310.34 468.52 264.52 460.99 221.05 C 455.78 190.38 443.44 160.97 425.33 135.68 C 405.94 108.46 379.96 85.96 350.20 70.73 C 323.00 56.77 292.66 48.94 262.08 48.15 C 256.91 48.06 251.22 48.41 246.85 45.11 C 240.16 40.65 237.98 30.91 242.14 24.02 C 244.46 19.95 248.66 17.01 253.29 16.24 Z\"><\/path>\n<path fill=\"#000000\" opacity=\"1.00\" d=\" M 245.79 83.71 C 249.39 80.54 254.36 79.68 259.02 80.04 C 293.66 80.59 328.05 91.73 356.39 111.68 C 386.10 132.35 409.23 162.33 421.51 196.39 C 438.21 241.86 434.71 294.21 412.08 337.05 C 395.81 368.26 370.00 394.39 339.00 411.06 C 297.44 433.70 246.54 438.19 201.63 423.30 C 168.41 412.48 138.64 391.46 117.21 363.88 C 97.68 338.93 85.07 308.62 81.31 277.15 C 80.02 267.03 79.93 256.81 80.01 246.62 C 67.95 258.71 55.86 270.76 43.80 282.84 C 40.74 286.01 36.45 288.05 32.01 287.99 C 25.86 288.07 19.90 284.22 17.44 278.59 C 14.67 272.71 16.04 265.27 20.67 260.73 C 41.15 240.16 61.77 219.74 82.19 199.12 C 85.59 195.02 90.42 191.57 96.00 191.94 C 101.59 191.57 106.42 195.03 109.85 199.12 C 129.91 219.37 150.13 239.46 170.29 259.62 C 174.30 263.25 176.69 268.74 175.83 274.18 C 175.03 280.93 169.43 286.67 162.74 287.76 C 157.44 288.74 151.86 286.72 148.20 282.83 C 136.13 270.72 124.00 258.68 111.97 246.54 C 112.00 255.37 111.91 264.24 113.03 273.01 C 116.68 304.36 131.21 334.21 153.35 356.66 C 174.37 378.17 202.23 392.93 231.92 397.94 C 260.69 402.87 290.96 398.78 317.31 386.18 C 345.70 372.75 369.44 349.81 383.88 321.92 C 396.59 297.59 401.98 269.54 399.31 242.23 C 396.38 210.71 382.45 180.43 360.71 157.46 C 334.46 129.33 296.58 112.32 258.04 112.07 C 252.24 112.40 246.18 110.07 242.88 105.13 C 238.14 98.63 239.47 88.70 245.79 83.71 Z\"><\/path>\n<path fill=\"#000000\" opacity=\"1.00\" d=\" M 241.13 154.15 C 244.14 145.84 254.67 141.53 262.62 145.45 C 267.87 147.77 271.65 153.14 271.91 158.89 C 272.16 164.59 271.92 170.30 272.00 176.00 C 278.25 176.15 284.53 175.67 290.76 176.26 C 299.34 177.52 305.61 186.64 303.68 195.12 C 302.38 202.41 295.45 208.10 288.05 207.98 C 272.02 208.06 255.99 207.94 239.96 208.02 C 231.44 207.81 223.78 215.51 224.01 224.02 C 223.84 232.12 230.80 239.59 238.91 239.91 C 250.61 240.19 262.32 239.81 274.03 240.09 C 287.83 240.54 301.19 247.48 309.67 258.36 C 317.96 268.77 321.58 282.75 319.29 295.88 C 317.12 309.46 308.69 321.82 296.94 328.93 C 289.50 333.59 280.74 335.83 272.00 336.05 C 271.76 342.64 272.53 349.31 271.52 355.85 C 269.56 364.95 258.74 370.57 250.18 366.88 C 244.56 364.75 240.37 359.17 240.09 353.13 C 239.84 347.43 240.08 341.71 240.00 336.00 C 232.51 335.45 224.59 337.32 217.43 334.57 C 209.26 331.15 205.51 320.43 209.79 312.67 C 212.43 307.46 218.10 303.96 223.96 304.02 C 240.01 303.94 256.07 304.07 272.12 303.97 C 280.22 304.10 287.58 297.12 287.95 289.04 C 288.72 280.59 281.59 272.41 273.10 272.08 C 266.73 271.86 260.34 272.07 253.97 272.00 C 245.20 271.82 236.24 272.73 227.68 270.34 C 212.94 266.52 200.45 255.17 195.12 240.91 C 190.09 227.81 191.28 212.52 198.29 200.35 C 206.54 185.53 223.04 175.96 240.00 175.96 C 240.46 168.72 238.90 161.17 241.13 154.15 Z\"><\/path>\n<\/g>\n<\/svg>","icon_position":"left","title":"100% MONEY BACK GUARANTEE","title_size":"h4","description":"","description_size":"fs-5","btn_text":"","btn_url":"","btn_color":"btn-primary","btn_size":"btn-md"}}},"block_order":["84bc443c-346e-494c-a531-8cd8bebc8850","72e56300-e237-4fcb-8c4b-27b871172bcf"],"settings":{"bg_color":"bg-white text-body","bg_gradient":false,"container":"container","title":"Icon Blocks","animation":"animate__fadeInRight","animation_speed":"animate__fast","breakpoint_xs_scroll":false,"breakpoint_xs":1,"breakpoint_sm":1,"breakpoint_md":1,"breakpoint_lg":2,"breakpoint_xl":2,"breakpoint_xxl":2,"pt":0,"pb":0,"mt":0,"mb":0}}},"order":["carousel","89e25ca3-54f5-455a-a388-e1619b6ae4d9","ea15ac55-2f6c-4807-a5f6-7db273cec6d9","10ecdc8c-6d82-4dfa-a6ae-525033bb5550","5cec5f55-2d4a-4dae-a903-e18f9fd86754","733b8c89-955b-4eca-a757-653dff2b22ba"]}
+{
+  "sections": {
+    "carousel": {
+      "type": "carousel",
+      "blocks": {
+        "7c7200c0-9e25-4d6f-8e80-68098f92561e": {
+          "type": "slide",
+          "settings": {
+            "img_mobile": "shopify:\/\/shop_images\/il_1140xN.4845187867_orc1.webp",
+            "img_mobile_height": 300,
+            "img_mobile_opacity": 0.6,
+            "img_mobile_blur": 0,
+            "caption_position_mobile": "carousel-caption-mobile-center",
+            "img_desktop_height": 680,
+            "img_desktop_opacity": 0.4,
+            "img_desktop_blur": 0,
+            "caption_position_desktop": "carousel-caption-desktop-center",
+            "caption_color": "rgba(0,0,0,0)",
+            "caption_animation": "animate__fadeInUp",
+            "caption_animation_speed": "animate__fast",
+            "subtitle": "",
+            "subtitle_size": "fs-5",
+            "title": "Relax With Plushie Kawaii ™",
+            "title_size": "h1",
+            "description": "",
+            "description_size": "fs-5",
+            "btn_text": "Discover Plushie Kawaii",
+            "btn_url": "https:\/\/ecomgraduates.com\/products\/ecomifylite-premium-shopify-theme",
+            "btn_color": "btn-secondary",
+            "btn_size": "btn-md",
+            "btn_secondary_text": "",
+            "btn_secondary_url": "https:\/\/ecomgraduates.com\/products\/ecomifylite-premium-shopify-theme",
+            "btn_secondary_color": "btn-secondary",
+            "btn_secondary_size": "",
+            "slide_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "7c7200c0-9e25-4d6f-8e80-68098f92561e"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "bg_color": "bg-dark",
+        "container": "",
+        "controls": true,
+        "controls_style": "carousel-controls-arrows",
+        "indicators": true,
+        "indicators_style": "carousel-indicators-circles",
+        "autoplay": true,
+        "animation": "slide",
+        "ken_burns": false,
+        "lazyload": false,
+        "mt": 0,
+        "mb": 0
+      }
+    },
+    "89e25ca3-54f5-455a-a388-e1619b6ae4d9": {
+      "type": "image-with-text",
+      "settings": {
+        "bg_color": "bg-white text-body",
+        "bg_gradient": false,
+        "container": "container-fluid",
+        "max_width": "",
+        "text_align": "text-start",
+        "animation": "animate__fadeInUp",
+        "animation_speed": "animate__fast",
+        "img_orientation": "square",
+        "img_crop": "center",
+        "img_thumbnail": "",
+        "img_align_desktop": "flex-lg-row",
+        "img_size_desktop": "1\/3",
+        "title": "BUBBLE TEA HUGGING PILLOW",
+        "title_size": "h2",
+        "subtitle": "",
+        "subtitle_size": "fs-6",
+        "description": "<p>You could hug it when sleeping, watching TV, Reading books, Also it can be used in different occasions such as bedroom, living room, bedroom, office, car, etc.<\/p>",
+        "description_size": "fs-6",
+        "btn_text": "Shop Now",
+        "btn_url": "",
+        "btn_color": "btn-secondary",
+        "btn_size": "btn-md",
+        "pt": 12,
+        "pb": 12,
+        "mt": 0,
+        "mb": 0
+      }
+    },
+    "ea15ac55-2f6c-4807-a5f6-7db273cec6d9": {
+      "type": "image-with-text",
+      "settings": {
+        "bg_color": "bg-white text-body",
+        "bg_gradient": false,
+        "container": "container-fluid",
+        "max_width": "",
+        "text_align": "text-start",
+        "animation": "animate__fadeInUp",
+        "animation_speed": "animate__fast",
+        "img_orientation": "landscape",
+        "img_crop": "center",
+        "img_thumbnail": "",
+        "img_align_desktop": "flex-lg-row-reverse",
+        "img_size_desktop": "1\/3",
+        "title": "REALISTIC CARTOON PLUSH",
+        "title_size": "h2",
+        "subtitle": "",
+        "subtitle_size": "fs-6",
+        "description": "<p>Different colours, different expressions, crying expressions, smiling expressions, you can choose different plushies to express your different moods<\/p>",
+        "description_size": "fs-6",
+        "btn_text": "Discover Plushie Kawaii",
+        "btn_url": "",
+        "btn_color": "btn-secondary",
+        "btn_size": "btn-md",
+        "pt": 5,
+        "pb": 10,
+        "mt": 0,
+        "mb": 0
+      }
+    },
+    "10ecdc8c-6d82-4dfa-a6ae-525033bb5550": {
+      "type": "single-product",
+      "settings": {
+        "bg_color": "bg-white text-body",
+        "container": "container",
+        "max_width": "",
+        "text_align": "text-start",
+        "product": "boba-plushies-bubble-tea-plush-toys-kawaii-plush-cup-shaped-pillow-real-life-food-stuffed-soft-back-cushion-kid-birthday-gift",
+        "show_vendor": false,
+        "title_size": "h2",
+        "description": "<p>Introducing the Ecomify Dog Mat - the perfect way to keep your furry friend cozy and comfortable. Our dog mat is made with high-quality, durable materials that can withstand even the most active dogs. With a soft, plush surface, your dog will love snuggling up on this mat for a nap or to relax after a long day of play... <\/p>",
+        "description_size": "fs-6",
+        "gallery_img_orientation": "landscape",
+        "gallery_img_thumbnail": "",
+        "gallery_show_thumbnails_mobile": true,
+        "form_light_bg": false,
+        "form_show_qty_field": true,
+        "form_show_buy_btn": true,
+        "btn_text": "Learn more",
+        "btn_color": "btn-secondary",
+        "btn_size": "btn-lg",
+        "pt": 10,
+        "pb": 11,
+        "mt": 0,
+        "mb": 0
+      }
+    },
+    "5cec5f55-2d4a-4dae-a903-e18f9fd86754": {
+      "type": "separator",
+      "settings": {
+        "full_width": false,
+        "opacity": 0.1,
+        "mt": 0,
+        "mb": 0
+      }
+    },
+    "733b8c89-955b-4eca-a757-653dff2b22ba": {
+      "type": "icon-blocks",
+      "blocks": {
+        "84bc443c-346e-494c-a531-8cd8bebc8850": {
+          "type": "item",
+          "settings": {
+            "bg_color": "bg-white text-body",
+            "shadow": "shadow-none",
+            "border_color": "",
+            "border_width": 0,
+            "text_align": "text-start",
+            "icon": "<svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" enable-background=\"new 0 0 32 32\" width=\"125px\" id=\"Layer_1\" version=\"1.1\" viewbox=\"0 0 32 32\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" xml:space=\"preserve\"><g id=\"truck_1_\"><path d=\"M24.832,11.445C24.646,11.167,24.334,11,24,11h-1c-0.553,0-1,0.447-1,1v6c0,0.553,0.447,1,1,1h4   c0.553,0,1-0.447,1-1v-1.5c0-0.197-0.059-0.391-0.168-0.555L24.832,11.445z M27,18h-4v-6h1l3,4.5V18z\" fill=\"#000000\"><\/path><path d=\"M31.496,15.336l-4-6C26.938,8.499,26.004,8,25,8h-4V6c0-1.654-1.346-3-3-3H3C1.346,3,0,4.346,0,6v11   c0,1.654,1.346,3,3,3h0v3c0,1.654,1.346,3,3,3h1.142c0.447,1.721,2,3,3.859,3c1.857,0,3.41-1.279,3.857-3h5.282   c0.447,1.721,2,3,3.859,3c1.857,0,3.41-1.279,3.857-3H29c1.654,0,3-1.346,3-3v-6C32,16.406,31.826,15.83,31.496,15.336z M3,18   c-0.552,0-1-0.447-1-1V6c0-0.553,0.448-1,1-1h15c0.553,0,1,0.447,1,1v2v2v7c0,0.553-0.447,1-1,1H3z M11.001,27   c-1.105,0-2-0.896-2-2s0.895-2,2-2c1.104,0,2,0.896,2,2S12.104,27,11.001,27z M24,27c-1.105,0-2-0.896-2-2s0.895-2,2-2   c1.104,0,2,0.896,2,2S25.104,27,24,27z M30,23c0,0.553-0.447,1-1,1h-1.143c-0.447-1.721-2-3-3.857-3c-1.859,0-3.412,1.279-3.859,3   h-5.282c-0.447-1.721-2-3-3.857-3c-1.859,0-3.412,1.279-3.859,3H6c-0.552,0-1-0.447-1-1v-3h13c1.654,0,3-1.346,3-3v-7h4   c0.334,0,0.646,0.167,0.832,0.445l4,6C29.941,16.609,30,16.803,30,17V23z\" fill=\"#000000\"><\/path><\/g><\/svg>",
+            "icon_position": "left",
+            "title": "FREE SHIPPING",
+            "title_size": "h4",
+            "description": "",
+            "description_size": "fs-6",
+            "btn_text": "",
+            "btn_url": "",
+            "btn_color": "btn-primary",
+            "btn_size": "btn-md"
+          }
+        },
+        "72e56300-e237-4fcb-8c4b-27b871172bcf": {
+          "type": "item",
+          "settings": {
+            "bg_color": "bg-white text-body",
+            "shadow": "shadow-none",
+            "border_color": "",
+            "border_width": 0,
+            "text_align": "text-start",
+            "icon": "<svg width=\"125px\" viewbox=\"0 0 512 512\" version=\"1.1\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<g id=\"#000000ff\">\n<path fill=\"#000000\" opacity=\"1.00\" d=\" M 253.29 16.24 C 311.14 14.91 368.91 36.59 412.53 74.47 C 453.69 109.87 482.45 159.52 492.05 213.01 C 500.73 260.04 494.83 309.67 475.20 353.30 C 459.20 389.22 434.17 421.05 403.15 445.22 C 361.29 478.09 308.20 496.40 254.95 495.92 C 247.55 495.64 241.00 489.45 240.16 482.12 C 239.12 475.32 243.10 468.20 249.39 465.45 C 252.69 463.84 256.45 463.98 260.03 463.88 C 298.15 463.31 335.97 451.68 367.98 431.00 C 399.10 410.99 424.79 382.62 441.53 349.61 C 461.64 310.34 468.52 264.52 460.99 221.05 C 455.78 190.38 443.44 160.97 425.33 135.68 C 405.94 108.46 379.96 85.96 350.20 70.73 C 323.00 56.77 292.66 48.94 262.08 48.15 C 256.91 48.06 251.22 48.41 246.85 45.11 C 240.16 40.65 237.98 30.91 242.14 24.02 C 244.46 19.95 248.66 17.01 253.29 16.24 Z\"><\/path>\n<path fill=\"#000000\" opacity=\"1.00\" d=\" M 245.79 83.71 C 249.39 80.54 254.36 79.68 259.02 80.04 C 293.66 80.59 328.05 91.73 356.39 111.68 C 386.10 132.35 409.23 162.33 421.51 196.39 C 438.21 241.86 434.71 294.21 412.08 337.05 C 395.81 368.26 370.00 394.39 339.00 411.06 C 297.44 433.70 246.54 438.19 201.63 423.30 C 168.41 412.48 138.64 391.46 117.21 363.88 C 97.68 338.93 85.07 308.62 81.31 277.15 C 80.02 267.03 79.93 256.81 80.01 246.62 C 67.95 258.71 55.86 270.76 43.80 282.84 C 40.74 286.01 36.45 288.05 32.01 287.99 C 25.86 288.07 19.90 284.22 17.44 278.59 C 14.67 272.71 16.04 265.27 20.67 260.73 C 41.15 240.16 61.77 219.74 82.19 199.12 C 85.59 195.02 90.42 191.57 96.00 191.94 C 101.59 191.57 106.42 195.03 109.85 199.12 C 129.91 219.37 150.13 239.46 170.29 259.62 C 174.30 263.25 176.69 268.74 175.83 274.18 C 175.03 280.93 169.43 286.67 162.74 287.76 C 157.44 288.74 151.86 286.72 148.20 282.83 C 136.13 270.72 124.00 258.68 111.97 246.54 C 112.00 255.37 111.91 264.24 113.03 273.01 C 116.68 304.36 131.21 334.21 153.35 356.66 C 174.37 378.17 202.23 392.93 231.92 397.94 C 260.69 402.87 290.96 398.78 317.31 386.18 C 345.70 372.75 369.44 349.81 383.88 321.92 C 396.59 297.59 401.98 269.54 399.31 242.23 C 396.38 210.71 382.45 180.43 360.71 157.46 C 334.46 129.33 296.58 112.32 258.04 112.07 C 252.24 112.40 246.18 110.07 242.88 105.13 C 238.14 98.63 239.47 88.70 245.79 83.71 Z\"><\/path>\n<path fill=\"#000000\" opacity=\"1.00\" d=\" M 241.13 154.15 C 244.14 145.84 254.67 141.53 262.62 145.45 C 267.87 147.77 271.65 153.14 271.91 158.89 C 272.16 164.59 271.92 170.30 272.00 176.00 C 278.25 176.15 284.53 175.67 290.76 176.26 C 299.34 177.52 305.61 186.64 303.68 195.12 C 302.38 202.41 295.45 208.10 288.05 207.98 C 272.02 208.06 255.99 207.94 239.96 208.02 C 231.44 207.81 223.78 215.51 224.01 224.02 C 223.84 232.12 230.80 239.59 238.91 239.91 C 250.61 240.19 262.32 239.81 274.03 240.09 C 287.83 240.54 301.19 247.48 309.67 258.36 C 317.96 268.77 321.58 282.75 319.29 295.88 C 317.12 309.46 308.69 321.82 296.94 328.93 C 289.50 333.59 280.74 335.83 272.00 336.05 C 271.76 342.64 272.53 349.31 271.52 355.85 C 269.56 364.95 258.74 370.57 250.18 366.88 C 244.56 364.75 240.37 359.17 240.09 353.13 C 239.84 347.43 240.08 341.71 240.00 336.00 C 232.51 335.45 224.59 337.32 217.43 334.57 C 209.26 331.15 205.51 320.43 209.79 312.67 C 212.43 307.46 218.10 303.96 223.96 304.02 C 240.01 303.94 256.07 304.07 272.12 303.97 C 280.22 304.10 287.58 297.12 287.95 289.04 C 288.72 280.59 281.59 272.41 273.10 272.08 C 266.73 271.86 260.34 272.07 253.97 272.00 C 245.20 271.82 236.24 272.73 227.68 270.34 C 212.94 266.52 200.45 255.17 195.12 240.91 C 190.09 227.81 191.28 212.52 198.29 200.35 C 206.54 185.53 223.04 175.96 240.00 175.96 C 240.46 168.72 238.90 161.17 241.13 154.15 Z\"><\/path>\n<\/g>\n<\/svg>",
+            "icon_position": "left",
+            "title": "100% MONEY BACK GUARANTEE",
+            "title_size": "h4",
+            "description": "",
+            "description_size": "fs-5",
+            "btn_text": "",
+            "btn_url": "",
+            "btn_color": "btn-primary",
+            "btn_size": "btn-md"
+          }
+        }
+      },
+      "block_order": [
+        "84bc443c-346e-494c-a531-8cd8bebc8850",
+        "72e56300-e237-4fcb-8c4b-27b871172bcf"
+      ],
+      "settings": {
+        "bg_color": "bg-white text-body",
+        "bg_gradient": false,
+        "container": "container",
+        "title": "Icon Blocks",
+        "animation": "animate__fadeInRight",
+        "animation_speed": "animate__fast",
+        "breakpoint_xs_scroll": false,
+        "breakpoint_xs": 1,
+        "breakpoint_sm": 1,
+        "breakpoint_md": 1,
+        "breakpoint_lg": 2,
+        "breakpoint_xl": 2,
+        "breakpoint_xxl": 2,
+        "pt": 0,
+        "pb": 0,
+        "mt": 0,
+        "mb": 0
+      }
+    }
+  },
+  "order": [
+    "carousel",
+    "89e25ca3-54f5-455a-a388-e1619b6ae4d9",
+    "ea15ac55-2f6c-4807-a5f6-7db273cec6d9",
+    "10ecdc8c-6d82-4dfa-a6ae-525033bb5550",
+    "5cec5f55-2d4a-4dae-a903-e18f9fd86754",
+    "733b8c89-955b-4eca-a757-653dff2b22ba"
+  ]
+}
