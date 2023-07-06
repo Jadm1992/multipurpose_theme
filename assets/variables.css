@@ -1,0 +1,145 @@
+/*
+    © 2023 EcomGraduates.com
+    https://www.ecomgraduates.com
+*/
+
+
+
+    @font-face {
+  font-family: "Fjalla One";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url("https://fonts.shopifycdn.com/fjalla_one/fjallaone_n4.e3b041743e726c1cef3b3ab9921402e93cd8f733.woff2?&hmac=0e9a1daef5a79973e5f63e49d6887419e7c0edd7c28cbc694060b99a87130352") format("woff2"),
+       url("https://fonts.shopifycdn.com/fjalla_one/fjallaone_n4.bed9b46f46027aa055f567c064cca454e8db0b22.woff?&hmac=1ce9a12633f36e8877253d929e07172bf63af4c79dab0bd75eeaf67926096f1a") format("woff");
+}
+
+
+
+
+    
+    
+    
+
+
+
+:root {
+    --bs-primary: #e1aa79;
+    --bs-primary-rgb: 225, 170, 121;
+    --bs-primary-lighten-5: #e6b78e;
+    --bs-primary-lighten-10: #e6b78e;
+    --bs-primary-darken-5:  #dc9d64;
+    --bs-primary-darken-10:  #d8904f;
+
+    --bs-secondary: #e1aa79;
+    --bs-secondary-rgb: 225, 170, 121;
+    --bs-secondary-lighten-5: #e6b78e;
+    --bs-secondary-lighten-10: #eac4a3;
+    --bs-secondary-darken-5:  #dc9d64;
+    --bs-secondary-darken-10:  #d8904f;
+
+    --bs-dark: #212529;
+    --bs-dark-rgb: 33, 37, 41;
+    --bs-dark-lighten-5: #2c3237;
+    --bs-dark-lighten-10: #383f45;
+    --bs-dark-darken-5:  #16181b;
+    --bs-dark-darken-10:  #0a0c0d;
+
+    --bs-light: #fff;
+    --bs-light-rgb: 255, 255, 255;
+    --bs-light-lighten-5: #ffffff;
+    --bs-light-lighten-10: #ffffff;
+    --bs-light-darken-5:  #f2f2f2;
+    --bs-light-darken-10:  #e6e6e6;
+
+    --bs-body-bg: #ffffff;
+    --bs-body-bg-rgb: 255, 255, 255;
+    --bs-body-color: #212529;
+    --bs-body-color-rgb: 33, 37, 41;
+
+    --bs-border-color: var(--bs-light-darken-10);
+    --bs-border-radius: 0;
+
+    --bs-link-color: var(--bs-primary);
+    --bs-link-hover-color: var(--bs-primary-darken-10);
+
+    --bs-success: #198754;
+    --bs-success-darken: #115c39;
+    --bs-success-rgb: 25, 135, 84;
+    --bs-danger: #dc3545;
+    --bs-danger-darken: #bd2130;
+    --bs-danger-rgb: 220, 53, 69;
+    --bs-warning: #ffc107;
+    --bs-warning-darken: #a07800;
+    --bs-warning-rgb: 255, 193, 7;
+    --bs-info: #0dcaf0;
+    --bs-info-darken: #08798f;
+    --bs-info-rgb: 13, 202, 240;
+
+    
+        --bs-headings-font-family: "Fjalla One", sans-serif;
+        --bs-headings-font-weight: 400;
+    
+
+    
+        --bs-body-font-family:  -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu, Helvetica Neue, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+    
+}
+
+
+
+body .btn {
+    letter-spacing: 0.0rem;
+    text-transform: ;
+    font-weight: 500;
+}
+
+body .btn-md {
+    --bs-btn-padding-x: 0.8rem;
+    --bs-btn-padding-y: 0.4rem;
+}
+
+body .btn-lg {
+    --bs-btn-padding-x: 1.2rem;
+    --bs-btn-padding-y: 0.6rem;
+}
+
+
+
+
+
+.form-control-md,
+.form-select-md {
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+}
+
+[dir="ltr"] .form-select-md {
+    padding-right: 2.5rem;
+}
+
+[dir="rtl"] .form-select-md {
+    padding-left: 2.5rem;
+}
+
+
+body .offcanvas-backdrop,
+body .modal-backdrop {
+    background-color: rgba(0, 0, 0, 0.5);
+    
+        backdrop-filter: blur(5px);
+    
+}
+
+
+
+.prefer-dark-design:root {
+    --bs-success: #81C784;
+    --bs-success-rgb: 129, 199, 132;
+    --bs-danger: #EF5350;
+    --bs-danger-rgb: 239, 83, 80;
+
+    --bs-border-color: rgba(255, 255, 255, .1);
+}
