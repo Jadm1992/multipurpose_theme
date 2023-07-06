@@ -1,3 +1,4 @@
+<!-- Paste the modal code here -->
 <div id="myModal" class="modal">
   <div class="modal-content">
     <span class="close">&times;</span>
@@ -48,26 +49,8 @@
 </style>
 
 <script>
+// JavaScript to control the modal
 var modal = document.getElementById("myModal");
-var closeBtn = document.getElementsByClassName("close")[0];
-
-closeBtn.onclick = function() {
-  modal.style.display = "none";
-}
-
-window.addEventListener("load", function() {
-  modal.style.display = "block";
-});
-
-var form = document.querySelector("form");
-form.addEventListener("submit", function(event) {
-  event.preventDefault();
-  var emailInput = document.querySelector("input[name='email']");
-  var email = emailInput.value;
-  console.log("Submitted email:", email);
-  modal.style.display = "none";
-});
-  var modal = document.getElementById("myModal");
 var closeBtn = document.getElementsByClassName("close")[0];
 
 closeBtn.onclick = function() {
@@ -85,18 +68,9 @@ form.addEventListener("submit", function(event) {
   event.preventDefault();
   var emailInput = document.querySelector("input[name='email']");
   var email = emailInput.value;
-  
-  // Display thank you message
-  var modalContent = document.querySelector(".modal-content");
-  modalContent.innerHTML = "<h2>Thank you for subscribing!</h2><p>We appreciate your support.</p>";
-  
   // Perform further validation or submit the email using an AJAX request
   // Here, you can send the email to your server for processing
   console.log("Submitted email:", email);
-  
-  // Hide the modal after a certain time (e.g., 3 seconds)
-  setTimeout(function() {
-    modal.style.display = "none";
-  }, 3000);
+  modal.style.display = "none";
 });
 </script>
