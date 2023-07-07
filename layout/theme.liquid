@@ -69,11 +69,10 @@
     <script src="{{ 'product.js' | asset_url }}" defer></script>
     <script src="{{ 'cart.js' | asset_url }}" defer></script>
     <script src="{{ 'custom.js' | asset_url }}" defer></script>
+  {% include 'modal'  %}
 </head>
 
 <body class="{{ request.page_type | prepend: 'page-type-' }}">
-  {% include 'modal'  %}
-
     <a class="visually-hidden-focusable" href="#main">
         {{ 'general.accessibility.skip_content' | t }}
     </a>
