@@ -1,31 +1,20 @@
 <div id="popup1" class="overlay">
   <div class="popup">
     <a class="close" href="#">&times;</a>
-    <div id="dialog" class="window">
-      <div class="box">
-        <div class="newletter-title">
-          <h2>Sign up &amp; get 10% off</h2>
+    <div class="box-content newleter-content">
+      <h2>Sign up &amp; get 10% off</h2>
+      <label>Subscribe to our newsletters now and stay up-to-date with new collections, the latest lookbooks, and exclusive offers.</label>
+      <div id="frm_subscribe">
+        <form name="subscribe" id="subscribe_popup">
+          <input type="text" value="" name="subscribe_pemail" id="subscribe_pemail" placeholder="Enter your email">
+          <input type="hidden" value="" name="subscribe_pname" id="subscribe_pname">
+          <div id="notification"></div>
+          <button type="submit">Submit</button>
+        </form>
+        <div class="subscribe-bottom">
+          <input type="checkbox" id="newsletter_popup_dont_show_again">
+          <label for="newsletter_popup_dont_show_again">Don't show this popup again</label>
         </div>
-        <div class="box-content newleter-content">
-          <label>Subscribe to our newsletters now and stay up-to-date with new collections, the latest lookbooks, and exclusive offers.</label>
-          <div id="frm_subscribe">
-            <form name="subscribe" id="subscribe_popup">
-              <div>
-                <!-- <span class="required">*</span><span>Email</span>-->
-                <input type="text" value="" name="subscribe_pemail" id="subscribe_pemail">
-                <input type="hidden" value="" name="subscribe_pname" id="subscribe_pname">
-                <div id="notification"></div>
-                <a class="button" onclick="email_subscribepopup()"><span>Submit</span></a>
-              </div>
-            </form>
-            <div class="subscribe-bottom">
-              <input type="checkbox" id="newsletter_popup_dont_show_again">
-              <label for="newsletter_popup_dont_show_again">Don't show this popup again</label>
-            </div>
-          </div>
-          <!-- /#frm_subscribe -->
-        </div>
-        <!-- /.box-content -->
       </div>
     </div>
   </div>
@@ -40,162 +29,110 @@
   left: 0;
   right: 0;
   background: rgba(0, 0, 0, 0.7);
-  transition: opacity 500ms;
-  visibility: hidden;
-  opacity: 0;
   z-index: 9999;
 }
 
 .overlay:target {
-  visibility: visible;
-  opacity: 1;
+  display: block;
 }
 
-#popup1 .popup {
+.popup {
   margin: 0px auto;
   padding: 50px 20px;
   background: #fff;
   border-radius: 0px;
   height: 260px;
   width: 690px;
-  position: relative;
-  text-align: center;
-  top: 50% !important;
-  position: fixed !important;
-  -moz-transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  right: 0px;
-  left: 0;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-#popup1 .popup h2 {
+.popup h2 {
   margin-top: 0;
   color: #333;
 }
 
-#popup1 .popup .close {
+.popup .close {
   position: absolute;
-  top: 0px;
-  right: 0px;
-  transition: all 200ms;
+  top: 10px;
+  right: 10px;
   font-size: 30px;
-  font-weight: normal;
+  color: #333;
   text-decoration: none;
+}
+
+.popup .box-content {
   text-align: center;
-  background: #333;
-  border-radius: 0;
-  cursor: pointer;
-  float: right;
-  padding: 0;
-  color: #fff;
-  margin-top: 0;
-  margin-right: 0;
-  height: 40px;
-  width: 40px;
-  line-height: 45px;
 }
 
-#popup1 .popup .close:hover {
-  color: #06D85F;
-}
-
-#popup1 .popup .content {
-  max-height: 30%;
-  overflow: auto;
-}
-
-#popup1 .newletter-title h2 {
-  font-size: 24px;
-  text-transform: uppercase;
-  color: #000;
-  font-weight: 700;
-  letter-spacing: 3px;
-  margin: 0 0 15px;
-}
-
-#popup1 .box-content label {
-  font-weight: 400;
-  max-width: 560px;
-  display: inline-block;
-  margin-bottom: 5px;
+.popup .box-content label {
   font-size: 14px;
   line-height: 26px;
 }
 
-.newletter-popup {
-  background: #fff;
-  top: 50% !important;
-  position: fixed !important;
-  padding: 0;
-  text-align: center;
-  -moz-transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-
-#popup1 #frm_subscribe #subscribe_pemail {
-  background: #EBEBEB none repeat scroll 0% 0%;
-  border: medium none;
+.popup input[type="text"] {
+  background: #EBEBEB;
+  border: none;
   height: 40px;
   width: 65%;
   margin: 20px 0;
   padding-left: 15px;
 }
 
-#popup1 #frm_subscribe a {
+.popup button {
   cursor: pointer;
   border: none;
   background: #333;
   padding: 3px 25px;
   text-transform: uppercase;
   font-size: 14px;
+  color: #fff;
+}
+
+.subscribe-bottom {
+  margin-top: 10px;
+}
+
+.subscribe-bottom label {
+  font-size: 14px;
 }
 </style>
 
 <script>
-// JavaScript to control the modal
-var modal = document.getElementById("popup1");
-var closeBtn = document.querySelector("#popup1 .close");
+document.addEventListener("DOMContentLoaded", function() {
+  var modal = document.getElementById("popup1");
+  var closeBtn = document.querySelector("#popup1 .close");
 
-closeBtn.onclick = function() {
-  modal.style.display = "none";
-}
-
-// Show the modal on page load
-window.addEventListener("load", function() {
-  modal.style.display = "block";
-});
-
-// Hide the modal when clicking outside of it
-window.onclick = function(event) {
-  if (event.target == modal) {
+  closeBtn.addEventListener("click", function() {
     modal.style.display = "none";
-  }
-}
+  });
 
-// Handle form submission
-var form = document.getElementById("subscribe_popup");
-form.addEventListener("submit", function(event) {
-  event.preventDefault();
-  var emailInput = document.getElementById("subscribe_pemail");
-  var email = emailInput.value;
-  
-  // Display thank you message
-  var modalContent = document.querySelector("#popup1 .box-content");
-  modalContent.innerHTML = "<h2>Thank you for subscribing!</h2><p>We appreciate your support.</p>";
-  
-  // Perform further validation or submit the email using an AJAX request
-  // Here, you can send the email to your server for processing
-  console.log("Submitted email:", email);
-  
-  // Hide the modal after a certain time (e.g., 3 seconds)
-  setTimeout(function() {
-    modal.style.display = "none";
-  }, 3000);
+  window.addEventListener("click", function(event) {
+    if (event.target === modal) {
+      modal.style.display = "none";
+    }
+  });
+
+  var form = document.getElementById("subscribe_popup");
+  form.addEventListener("submit", function(event) {
+    event.preventDefault();
+    var emailInput = document.getElementById("subscribe_pemail");
+    var email = emailInput.value;
+
+    // Display thank you message
+    var modalContent = document.querySelector("#popup1 .box-content");
+    modalContent.innerHTML = "<h2>Thank you for subscribing!</h2><p>We appreciate your support.</p>";
+
+    // Perform further validation or submit the email using an AJAX request
+    // Here, you can send the email to your server for processing
+    console.log("Submitted email:", email);
+
+    // Hide the modal after a certain time (e.g., 3 seconds)
+    setTimeout(function() {
+      modal.style.display = "none";
+    }, 3000);
+  });
 });
 </script>
